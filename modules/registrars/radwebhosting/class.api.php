@@ -14,7 +14,7 @@ if (!class_exists('radwebhosting_API')) {
         protected $_domainid  = null;
 
         public function __construct( $email, $key) {
-            $this->_url     = "https://radwebhosting.com/client_area/domainsResellerAPI/api.php";
+            $this->_url     = "https://api.radwebhosting.com/index.php";
             $this->_email   = $email;
             $this->_key     = $key;
         }
